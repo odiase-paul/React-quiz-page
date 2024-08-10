@@ -9,6 +9,10 @@ body {
   padding: 0;
   margin: 0;
 }
+.move {
+  border: 2px solid black;
+  display: block;
+}
 .container {
   background-color: #fff;
   background-position: center;
@@ -38,7 +42,9 @@ h1 span {
 .question {
   font-size: 1.3em;
 }
-button {
+
+button,
+.retake-quiz {
   cursor: pointer;
   padding: 10px 20px;
   margin: 10px;
@@ -46,6 +52,10 @@ button {
   border: none;
   border-radius: 3px;
   color: #fff;
+}
+.retake-quiz {
+  text-decoration: none;
+  margin: 0;
 }
 .buttons {
   margin-top: 10px;

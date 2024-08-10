@@ -1,11 +1,25 @@
-const ScoreApp = (props) => {
-  const finalScore = props.finalScore;
+import { Fragment } from "react";
+import { useNavigate } from "react-router-dom";
+
+const ScoreApp = ({ finalScore, handleRestart }) => {
+  const navigate = useNavigate();
+  const handleRestartHere = () => {
+    navigate("/");
+    handleRestart();
+  };
   return (
-    <div className="end-result">
-      <h2>Completed!🎇</h2>
+    <Fragment>
+      <div className="end-result">
+        <h2>Completed!🎇</h2>
+        <br />
+        <p className="score">Your final score is {finalScore}</p>
+      </div>
       <br />
-      <p className="score">Your final score is {finalScore}</p>
-    </div>
+      <br />
+      <div>
+        <button onClick={handleRestartHere}>Retake Quiz</button>
+      </div>
+    </Fragment>
   );
 };
 
