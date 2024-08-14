@@ -9,17 +9,11 @@ body {
   padding: 0;
   margin: 0;
 }
-.move {
-  border: 2px solid black;
-  display: block;
-}
+
 .container {
-  background-color: #fff;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-  padding: 50px;
+  height: 94vh;
+  padding: 30px;
+  margin: 0 auto;
 }
 
 h1,
@@ -44,40 +38,52 @@ h1 span {
 }
 
 button,
-.retake-quiz {
+.retake-quiz,
+.link {
   cursor: pointer;
   padding: 10px 20px;
   margin: 10px;
   background-color: #8d0303;
   border: none;
-  border-radius: 3px;
+  border-radius: 25px;
   color: #fff;
-}
-.retake-quiz {
   text-decoration: none;
-  margin: 0;
+}
+.landingPage h2 {
+  font-weight: 500;
 }
 .buttons {
-  margin-top: 10px;
+  margin-top: 30px;
 }
-.hide {
-  display: none;
+.Wrong,
+.Correct {
+  color: red;
+  width: 15%;
+  margin: 0 auto;
+  background-color: #ccc;
+  padding: 5px;
+  border-radius: 25px;
+  font-weight: 500;
+}
+.Correct {
+  color: green;
+}
+
+.display-answer {
+  margin-top: 30px;
 }
 .end-result h2 {
   color: green;
 }
-@media only screen and (max-width: 480px) {
-  h1 {
-    font-size: 1.8rem;
-    margin-top: 40px;
-  }
-  .container {
-    background-position: center;
-    background-size: auto;
-    height: 100vh;
-    padding: 20px;
-  }
-  button {
-    padding: 5px 15px;
-  }
+.landing-page-color {
+  margin-bottom: 10px;
+}
+.final-score-result {
+  height: 90vh;
+}
+
+footer {
+  color: #ccc;
+  background-color: #727171;
+  padding: 10px 0;
 }
