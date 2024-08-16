@@ -44,7 +44,7 @@ const EntireDiv = ({ questions, handleFinalScore }) => {
   return (
     <div className="container">
       <h1>
-        Get The Answer To That <span>FAQ</span>
+        Get The Answer To That <span>FAQ.</span>
       </h1>
       <div className="question-div">
         <p className="question-number">{`Question ${questionNumber}`}</p>
