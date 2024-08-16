@@ -1,13 +1,17 @@
 @media only screen and (max-width: 480px) {
   h1 {
-    font-size: 1.8rem;
-    margin-top: 40px;
+    font-size: 1.6rem;
   }
+
   .container {
     background-position: center;
     background-size: auto;
     height: 100vh;
     padding: 20px;
+  }
+  .landing-page-color h2,
+  .category-body-container h2 {
+    font-size: 1.3rem;
   }
 
   button {

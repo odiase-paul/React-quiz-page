@@ -3,7 +3,6 @@
   display: grid;
   justify-content: space-between;
   grid-template-columns: repeat(2, 1fr);
-  margin-top: 20px;
 }
 
 .category-container {
@@ -51,6 +50,9 @@
   background-color: white;
   opacity: 0.6;
 }
+.category-body-container h2 {
+  padding: 0 5px;
+}
 .landingPage {
   margin-bottom: 30px;
 }
@@ -60,6 +62,7 @@
 }
 .landing-page-color h2 {
   font-weight: 500;
+  margin: 40px 0;
 }
 .landing-page-color h2 span {
   color: #8d0303;
@@ -67,4 +70,5 @@
 .landing-page-color h1 {
   background-color: #f4effb;
   padding: 10px 0;
+  font-weight: 600;
 }

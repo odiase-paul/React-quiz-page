@@ -11,25 +11,25 @@ const LandingPage = () => {
     {
       id: 1,
       imageCategory: general,
-      title: "General Quiz",
+      title: "General",
       route: "general",
     },
     {
       id: 2,
       imageCategory: sports,
-      title: "Sport Quiz",
+      title: "Sport",
       route: "sports",
     },
     {
       id: 3,
       imageCategory: entertainment,
-      title: "Entertainment Quiz",
+      title: "Entertainment",
       route: "entertainment",
     },
     {
       id: 4,
       imageCategory: geography,
-      title: "Geography Quiz",
+      title: "Geography",
       route: "geography",
     },
   ];
