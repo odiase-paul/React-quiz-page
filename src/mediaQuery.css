@@ -13,7 +13,13 @@
   .category-body-container h2 {
     font-size: 1.3rem;
   }
-
+  .question-div .question {
+    font-size: 1.2em;
+  }
+  .display-answer .select-color {
+    background-color: #fff;
+    width: fit-content;
+  }
   button {
     padding: 5px 15px;
   }

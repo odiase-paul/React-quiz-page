@@ -45,7 +45,7 @@ const EntireDiv = ({ questions, handleFinalScore }) => {
   return (
     <div className="container">
       <h1>
-        Get The Answer To That <span>FAQ.</span>
+        Get The Answer To That <span>FAQ</span>
       </h1>
       <div className="question-div">
         <p className="question-number">{`Question ${questionNumber}`}</p>
@@ -61,7 +61,7 @@ const EntireDiv = ({ questions, handleFinalScore }) => {
         />
       </div>
       <div className="display-answer">
-        <p className={`${changeClass}`}>{changeClass}</p>
+        <p className={`${changeClass} select-color`}>{changeClass}</p>
       </div>
     </div>
   );
