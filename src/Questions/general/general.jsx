@@ -100,7 +100,92 @@ const GeneralQuestions = ({ handleFinalScore }) => {
       options: ["(A) Apple", "(B) Nokia", "(C) Itel", "(D) Gionee"],
       answer: "(B) Nokia",
     },
+
+    {
+      id: 15,
+      question: "What is the chemical symbol for Gold?",
+      options: ["(A) Gd", "(B) Go", "(C) Au", "(D) Ag"],
+      answer: "(C) Au",
+    },
+    {
+      id: 16,
+      question: "In what year was the first iPhone released?",
+      options: ["(A) 2005", "(B) 2007", "(C) 2008", "(D) 2003"],
+      answer: "(B) 2007",
+    },
+    {
+      id: 17,
+      question: 'Who painted the "Mona Lisa"?',
+      options: [
+        "(A) Leonardo da Vinci",
+        "(B) Michelangelo",
+        "(C) Raphael",
+        "(D) Caravaggio",
+      ],
+      answer: "(A) Leonardo da Vinci",
+    },
+    {
+      id: 18,
+      question: "Who discovered electricity?",
+      options: [
+        "(A) Isaac Newton",
+        "(B) Nikola Tesla",
+        "(C) Michael Faraday",
+        "(D) Benjamin Franklin",
+      ],
+      answer: "(D) Benjamin Franklin",
+    },
+
+    {
+      id: 19,
+      question: "Who came up with the theory of relativity?",
+      options: [
+        "(A) Edgar Allan",
+        "(B) Albert Einstein",
+        "(C) Galileo Galilei",
+        "(D) Louis Pasteur",
+      ],
+      answer: "(B) Albert Einstein",
+    },
+    {
+      id: 20,
+      question: "What language is spoken in Brazil?",
+      options: ["(A) Spanish", "(B) English", "(C) Portuguese", "(D) French"],
+      answer: "(C) Portuguese",
+    },
+
+    {
+      id: 21,
+      question: " Who invented the lightbulb?",
+      options: [
+        "(A) Albert Einstein",
+        "(B) Nikola Tesla",
+        "(C) Graham Bell",
+        "(D) Thomas Edison",
+      ],
+      answer: "(D) Thomas Edison",
+    },
+
+    {
+      id: 22,
+      question: "Who is the CEO of Tesla?",
+      options: [
+        "(A) Jeff Bezos",
+        "(B) Mark Zuckerberg",
+        "(C) Tim Cook",
+        "(D) Elon Musk",
+      ],
+      answer: "(D) Elon Musk",
+    },
+
+    {
+      id: 23,
+      question: "What is the fastest land animal?",
+      options: ["(A) Cheetah", "(B) Ostrich", "(C) Lion", "(D) Tiger"],
+      answer: "(A) Cheetah",
+    },
   ];
+
   return (
     <EntireDiv
       handleFinalScore={handleFinalScore}

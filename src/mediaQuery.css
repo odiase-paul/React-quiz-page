@@ -20,7 +20,8 @@
     background-color: #fff;
     width: fit-content;
   }
-  button {
+  .buttons button {
     padding: 5px 15px;
+    width: 80%;
   }
 }

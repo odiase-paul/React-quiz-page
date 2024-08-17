@@ -80,6 +80,12 @@ const Entertainment = ({ handleFinalScore }) => {
       options: ["(A) Lion King", "(B) Moana", "(C) Frozen II", "(D) Sing"],
       answer: "(C) Frozen II",
     },
+    {
+      id: 9,
+      question: "What kind of animal is Shrek?",
+      options: ["(A) Donkey", "(B) Dragon", "(C) Ogre", "(D) Giant"],
+      answer: "(C) Ogre",
+    },
   ];
 
   return (

@@ -115,7 +115,43 @@ const GeographyQuestions = ({ handleFinalScore }) => {
       options: ["(A) 5", "(B) 4", "(C) 3", "(D) 6"],
       answer: "(D) 6",
     },
+    {
+      id: 15,
+      question: "What is the tallest mountain in the world?",
+      options: [
+        "(A) k2",
+        "(B) Mount Everest",
+        "(C) Mount Kilimanjaro",
+        "(D) Denali",
+      ],
+      answer: "(B) Mount Everest",
+    },
+    {
+      id: 15,
+      question: ' Which planet is known as the "Red Planet"?',
+      options: ["(A) Venus", "(B) Mars", "(C) Juital", "(D) Saturn"],
+      answer: "(B) Mars",
+    },
+    {
+      id: 15,
+      question: "What is the world's largest ocean?",
+      options: [
+        "(A) Atlantic Ocean",
+        "(B) Indian Ocean",
+        "(C) Pacific Ocean",
+        "(D) Southern Ocean",
+      ],
+      answer: "(C) Pacific Ocean",
+    },
+
+    {
+      id: 15,
+      question: "What is the hottest planet in the solar system?",
+      options: ["(A) Mercury", "(B) Mars", "(C) Venus", "(D) Jupital"],
+      answer: "(C) Venus",
+    },
   ];
+
   return (
     <EntireDiv
       handleFinalScore={handleFinalScore}

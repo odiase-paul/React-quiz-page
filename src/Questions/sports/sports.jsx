@@ -54,6 +54,12 @@ const Sports = ({ handleFinalScore }) => {
       options: ["(A) Marathon", "(B) Wimbledon", "(C) Jupitar", "(D) Olympics"],
       answer: "(B) Wimbledon",
     },
+    {
+      id: 8,
+      question: "How many players are there in a soccer team?",
+      options: ["(A) 10", "(B) 11", "(C) 7", "(D) 5"],
+      answer: "(C) 11",
+    },
   ];
   return (
     <EntireDiv handleFinalScore={handleFinalScore} questions={sportQuestion} />

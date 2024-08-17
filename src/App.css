@@ -13,25 +13,6 @@ h1 span {
   color: #8d0303;
 }
 
-button,
-.retake-quiz,
-.link {
-  cursor: pointer;
-  padding: 10px 20px;
-  margin: 10px;
-  background-color: #8d0303;
-  border: none;
-  border-radius: 25px;
-  color: #fff;
-  text-decoration: none;
-}
-.landingPage h2 {
-  font-weight: 500;
-}
-.buttons {
-  margin-top: 30px;
-}
-
 .end-result h2 {
   color: green;
 }

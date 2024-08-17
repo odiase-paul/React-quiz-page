@@ -19,7 +19,25 @@
   margin-bottom: 30px;
 }
 .question {
-  font-size: 1.3em;
+  font-size: 1.5em;
+}
+button,
+.retake-quiz,
+.link {
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #8d0303;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  text-decoration: none;
+}
+button {
+  width: 35%;
+}
+.buttons {
+  margin-top: 30px;
 }
 .Wrong,
 .Correct {

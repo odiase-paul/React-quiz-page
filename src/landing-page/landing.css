@@ -56,7 +56,9 @@
 .landingPage {
   margin-bottom: 30px;
 }
-
+.landingPage h2 {
+  font-weight: 500;
+}
 .landing-page-color {
   margin-top: 0;
 }
