@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
-import uuid from "react-uuid";
+// import uuid from "react-uuid";
 import Button from "./button";
 import "./quizPage.css";
 
@@ -57,7 +57,7 @@ const EntireDiv = ({ questions, handleFinalScore }) => {
         <Button
           handleChange={handleChange}
           currentQuestion={currentQuestion}
-          uuid={uuid}
+          // uuid={uuid}
         />
       </div>
       <div className="display-answer">
