@@ -1,4 +1,4 @@
-import sports from "../img/sport.jpg";
+import sports from "../img/sport_2.jpg";
 import general from "../img/general.jpg";
 import entertainment from "../img/entertainment.jpg";
 import geography from "../img/geography.jpg";
@@ -38,12 +38,17 @@ const LandingPage = () => {
     <Fragment>
       <div className="landingPage">
         <div className="landing-page-color">
-          <h1>
-            Welcome to <span>PAKH'S</span> Quiz
-          </h1>
-          <h2>
-            Click on any of the category to <span>Start Quiz</span>
-          </h2>
+          <div className="welcome-note">
+            <h1>
+              Welcome to <span>PAKH'S</span> Quiz
+            </h1>
+          </div>
+          <div className="landingPage-start-quiz">
+            <h2>
+              Click on any of the category to <br />
+              <span>Start Quiz</span>
+            </h2>
+          </div>
         </div>
         <div className="display-container">
           {categories.map((item) => (

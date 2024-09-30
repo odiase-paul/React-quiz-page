@@ -29,12 +29,12 @@ const Sports = ({ handleFinalScore }) => {
       id: 4,
       question: "What was the first name of Argentinian soccer star Maradona?",
       options: ["(A) Lionel", "(B) Diego", "(C) Angel", "(D) Diogo"],
-      answer: "(D) ",
+      answer: "(B) Diego",
     },
     {
       id: 5,
       question: "What height is a regulation NBA basket?  ",
-      options: ["(A) 12", "(B) 9", "(C) 10 feet", "(D) 8"],
+      options: ["(A) 12 feet", "(B) 9 feet", "(C) 10 feet", "(D) 8 feet"],
       answer: "(C) 10 feet",
     },
     {

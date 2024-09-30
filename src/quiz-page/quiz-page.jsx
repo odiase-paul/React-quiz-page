@@ -44,24 +44,30 @@ const EntireDiv = ({ questions, handleFinalScore }) => {
 
   return (
     <div className="container">
-      <h1>
-        Get The Answer To That <span>FAQ</span>
-      </h1>
-      <div className="question-div">
-        <p className="question-number">{`Question ${questionNumber}`}</p>
-        <p className="question">
-          {currentQuestion && currentQuestion.question}
-        </p>
+      <div className="answer-to-faq">
+        <h1>
+          Get The Answer To That <span>FAQ</span>
+        </h1>
       </div>
-      <div className="buttons">
-        <Button
-          handleChange={handleChange}
-          currentQuestion={currentQuestion}
-          // uuid={uuid}
-        />
-      </div>
-      <div className="display-answer">
-        <p className={`${changeClass} select-color`}>{changeClass}</p>
+      <div className="faq-container">
+        <div className="question-div">
+          <p className="question-number">{`Question ${questionNumber}`}</p>
+          <div className="current-question-div">
+            <p className="question">
+              {currentQuestion && currentQuestion.question}
+            </p>
+          </div>
+        </div>
+        <div className="buttons">
+          <Button
+            handleChange={handleChange}
+            currentQuestion={currentQuestion}
+            // uuid={uuid}
+          />
+        </div>
+        <div className="display-answer">
+          <p className={`${changeClass} select-color`}>{changeClass}</p>
+        </div>
       </div>
     </div>
   );

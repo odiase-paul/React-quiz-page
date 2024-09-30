@@ -4,10 +4,7 @@
   }
 
   .container {
-    background-position: center;
-    background-size: auto;
     height: 100vh;
-    padding: 20px;
   }
   .landing-page-color h2,
   .category-body-container h2 {
@@ -23,5 +20,11 @@
   .buttons button {
     padding: 5px 15px;
     width: 80%;
+  }
+  div.landingPage-start-quiz br {
+    display: block;
+  }
+  .startQuiz {
+    display: none;
   }
 }

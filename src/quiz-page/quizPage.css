@@ -1,10 +1,17 @@
 .container {
-  height: 94vh;
+  height: 100vh;
+}
+
+.faq-container {
   padding: 30px;
   margin: 0 auto;
 }
+.answer-to-faq {
+  padding: 20px 0;
+  background: #f7f7fb;
+}
 
-.container h1,
+.faq-container h1,
 .question-number {
   margin-bottom: 50px;
   font-weight: 600;
@@ -18,8 +25,19 @@
   margin: 0 auto;
   margin-bottom: 30px;
 }
+.current-question-div {
+  display: flex;
+
+  height: 20vh;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  box-shadow: 2px 2px 10px 0 #dad9d9;
+}
 .question {
   font-size: 1.5em;
+  padding: 10px;
+  line-height: 1.5;
 }
 button,
 .retake-quiz,
@@ -37,7 +55,7 @@ button {
   width: 35%;
 }
 .buttons {
-  margin-top: 30px;
+  margin-top: 50px;
 }
 .Wrong,
 .Correct {

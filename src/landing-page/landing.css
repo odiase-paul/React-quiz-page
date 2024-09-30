@@ -62,15 +62,19 @@
 .landing-page-color {
   margin-top: 0;
 }
-.landing-page-color h2 {
+.landingPage-start-quiz h2 {
   font-weight: 500;
   margin: 40px 0;
+  line-height: 2;
 }
-.landing-page-color h2 span {
+.landingPage-start-quiz br {
+  display: none;
+}
+.landingPage-start-quiz h2 span {
   color: #8d0303;
 }
-.landing-page-color h1 {
-  background-color: #f4effb;
-  padding: 10px 0;
+.welcome-note {
+  background-color: #f7f7fb;
+  padding: 20px 0;
   font-weight: 600;
 }
